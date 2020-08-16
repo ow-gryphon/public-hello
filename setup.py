@@ -8,7 +8,7 @@ with open('requirements.txt') as fr:
 
 
 setuptools.setup(
-    name="prospector",
+    name="public_hello",
     version="0.1",
     author="Nicolas REMOND",
     author_email="remondnicola@gmail.com",
