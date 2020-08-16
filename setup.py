@@ -12,7 +12,7 @@ setuptools.setup(
     version="0.2",
     author="Nicolas REMOND",
     author_email="remondnicola@gmail.com",
-    description="A public github-hosted python package for test",
+    description="A public github-hosted python package for test, with dependency.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/astariul/public-hello",
