@@ -1,2 +1,5 @@
+from mydependency import hi as dep_hi
+
+
 def hi():
-    return "Hello world from public repository"
+    return dep_hi() + " (with a dependency)"
