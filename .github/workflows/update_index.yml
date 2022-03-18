@@ -20,6 +20,7 @@ jobs:
         source_file: 'metadata.json'
         destination_repo: 'ow-gryphon/grypi'
         destination_folder: 'metadata'
+        destination_branch: 'master'
         user_email: 'vittorfpereira@gmail.com'
         user_name: 'vittorfp'
         commit_message: 'Adding metadata for the template ${GITHUB_REPOSITORY} ${GITHUB_REF_TYPE} ${GITHUB_REF_NAME}.'
