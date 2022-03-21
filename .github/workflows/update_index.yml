@@ -4,6 +4,7 @@ on:
     types: [closed]
     branches:
       - master
+      - main
 jobs:
   Send-file-to-index:
     if: github.event.pull_request.merged == true
@@ -19,7 +20,7 @@ jobs:
       with:
         source_file: 'metadata.json'
         destination_repo: 'ow-gryphon/grypi'
-        destination_folder: 'metadata'
+        destination_folder: ${{ github.event.repository.name }}
         destination_branch: 'master'
         user_email: 'vittorfpereira@gmail.com'
         user_name: 'vittorfp'
