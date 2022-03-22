@@ -4,7 +4,6 @@ on:
     types: [closed]
     branches:
       - master
-      - main
 jobs:
   Send-file-to-index:
     if: github.event.pull_request.merged == true
