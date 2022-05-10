@@ -9,7 +9,7 @@ with open('requirements.txt') as fr:
 
 setuptools.setup(
     name="public-hello",
-    version="0.0.4",
+    version="0.0.5",
     author="Nicolas REMOND",
     author_email="remondnicola@gmail.com",
     description="A public github-hosted python package for test, with dependency.",
