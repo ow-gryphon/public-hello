@@ -4,5 +4,6 @@
     "dependencies": ["pandas","numpy","matplotlib"],
     "keywords": ["pandas", "data exploration", "NCT"],
     "methodology": ["Data Exploration"],
-    "command": "init"
+    "command": "init",
+    "author": "vittor"
 }
